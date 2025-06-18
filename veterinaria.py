@@ -1,8 +1,8 @@
 cadastros = []
-quandos = []
+quando_seram_os_atendimentos = []
 
 def cor_texto(texto, cor):
-    cores = {
+    cores = { #os códigos de cada cor modificam o texto
         'vermelho': '\033[91m',
         'verde': '\033[92m',
         'amarelo': '\033[93m',
@@ -73,11 +73,12 @@ def cadastrar_pet():
     print(f"{cor_texto("Especificações do atendimento", "verde")}\n")
     print("segunda a sexta, das 9h às 18h\nsábados, das 9h às 14h")
     while True: #adiciona e identifica a ocorrencia da data do atendimento
-        quando = str(input("Digite o dia da semana(segunda/terça/quarta/quinta/sexta/sábado) e o horário(ex:00h), exemplo:segunda-9h: ")).lower()
-        if quando in quandos:
+        quando_sera = str(input("Digite o dia da semana(segunda/terça/quarta/"
+                                "quinta/sexta/sábado) e o horário(ex:00h), exemplo:segunda-9h: ")).lower()
+        if quando_sera in quando_seram_os_atendimentos:
             print("ja esta ocupado, tente novamente")
         else:
-            quandos.append(quando)
+            quando_seram_os_atendimentos.append(quando_sera)
             break
     atendente = str(input("Quem fará o atendimento (joana/marina): ")).lower()
     if tipo == "cachorro" and porte == "p":

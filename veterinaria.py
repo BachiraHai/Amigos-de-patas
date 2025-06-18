@@ -34,15 +34,15 @@ def exibir_precos():
     print("- Banho para cachorro pequeno: R$ 50,00")
     print("- Banho para cachorro médio: R$ 70,00")
     print("- Banho para cachorro grande: R$ 90,00")
-    print(" - Banho para gato: R$ 60, 00")
+    print("- Banho para gato: R$ 60, 00")
     print("- Tosa para cachorro pequeno: R$ 70, 00")
     print("- Tosa para cachorro médio: R$ 90,00")
     print("- Tosa para cachorro grande: R$ 110,00")
-    print(" - Tosa para gato: R$ 80, 00")
+    print("- Tosa para gato: R$ 80, 00")
     print("- Consulta para cachorro pequeno: R$ 100, 00")
     print("- Consulta para cachorro médio: R$ 120,00")
     print("- Consulta para cachorro grande: R$ 140,00")
-    print(" - Consulta para gato: R$ 110, 00")
+    print("- Consulta para gato: R$ 110, 00")
 
 def exibir_horarios():
     print("segunda a sexta, das 9h às 18h\nsábados, das 9h às 14h")

@@ -122,7 +122,7 @@ def cadastrar_pet():
         "dono": dono,
         "telefone": telefone,
         "endereco": endereco,
-        "quando": quando,
+        "quando": quando_sera,
         "atendente": atendente,
         "valor": valor,
         "realizada": False
